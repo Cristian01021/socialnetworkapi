@@ -1,0 +1,31 @@
+{
+  "name": "socialnapi",
+  "version": "1.0.0",
+  "description": "This is an example of an API for a social networking app where users can share their thoughts, react to friends’ thoughts, and create a friend list.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "watch": "nodemon index",
+    "seed": "node utils/seed",
+    "heroku-postbuild": "node utils/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cristian01021/socialnetworkapi"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cristian01021/socialnetworkapi"
+  },
+  "homepage": "https://github.com/Cristian01021/socialnetworkapi#readme"
+}
